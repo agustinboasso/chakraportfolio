@@ -7,13 +7,13 @@ function Projects() {
   const dividerColor = useColorModeValue('blue.900', 'gray.100');
   const sectionTitleGradient = "linear(to-r, cyan.400, blue.500, purple.600)";
 
-  // Información de los proyectos
+  
   const projectsData = [
     {
       id: 1,
       name: 'Proyecto 1',
       description: 'Breve descripción del Proyecto 1.',
-      imageSrc: 'imagen1.jpg', // Ruta de la imagen del proyecto
+      imageSrc: 'imagen1.jpg', 
       deployLink: 'https://link-deploy-proyecto-1.com',
       repoLink: 'https://link-repositorio-proyecto-1.com',
     },
@@ -21,11 +21,27 @@ function Projects() {
       id: 2,
       name: 'Proyecto 2',
       description: 'Breve descripción del Proyecto 2.',
-      imageSrc: 'imagen2.jpg', // Ruta de la imagen del proyecto
+      imageSrc: 'imagen2.jpg', 
       deployLink: 'https://link-deploy-proyecto-2.com',
       repoLink: 'https://link-repositorio-proyecto-2.com',
     },
-    // Agregar más proyectos aquí
+    {
+        id: 2,
+        name: 'Proyecto 2',
+        description: 'Breve descripción del Proyecto 2.',
+        imageSrc: 'imagen2.jpg', 
+        deployLink: 'https://link-deploy-proyecto-2.com',
+        repoLink: 'https://link-repositorio-proyecto-2.com',
+      },
+      {
+        id: 2,
+        name: 'Proyecto 2',
+        description: 'Breve descripción del Proyecto 2.',
+        imageSrc: 'imagen2.jpg', 
+        deployLink: 'https://link-deploy-proyecto-2.com',
+        repoLink: 'https://link-repositorio-proyecto-2.com',
+      },
+    
   ];
 
   return (
@@ -63,6 +79,7 @@ function Projects() {
           </Box>
         ))}
       </Grid>
+      <br/>
       <Divider borderColor={dividerColor} mt="4" mb="4" maxW="50%" mx="auto" />
     </Box>
   );
