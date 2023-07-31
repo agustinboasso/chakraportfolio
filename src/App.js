@@ -6,6 +6,7 @@ import Header from "./Components/Header";
 import Profile from "./Components/Profile";
 import TechSkills from "./Components/TechSkills";
 import SoftSkills from "./Components/SoftSkills";
+import Projects from "./Components/Projects";
 
 function App() {
   const { colorMode, toggleColorMode } = useColorMode();
@@ -29,7 +30,9 @@ function App() {
       <Header />
       <TechSkills />
       <SoftSkills/>
+      <Projects/>
       <Profile />
+      
     </VStack>
   );
 }
