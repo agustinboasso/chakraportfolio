@@ -1,7 +1,9 @@
-import React from 'react';
-import { ChakraProvider } from '@chakra-ui/react';
+
 import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
 import { Box, Center, VStack, Heading, Divider, Text, Image, Link, SimpleGrid, useColorModeValue, Icon, HStack, Grid } from '@chakra-ui/react';
+import henryfood from '../assets/images/henryfood.jpg'
+import ProFinder from '../assets/images/ProFinder.jpg'
+
 
 function Projects() {
   const dividerColor = useColorModeValue('blue.900', 'gray.100');
@@ -13,7 +15,7 @@ function Projects() {
       id: 1,
       name: 'ProFinder',
       description: 'Proyecto final bootcamp Henry- julio 2023 -',
-      imageSrc: '../assets/images/ProFinder.jpg', 
+      imageSrc: ProFinder  , 
       deployLink: 'https://profinder-client.vercel.app/',
       repoLink: 'https://github.com/agustinboasso/ProFinder-ProyectoFinalHenry-',
     },
@@ -21,7 +23,7 @@ function Projects() {
       id: 2,
       name: 'Henry Foods',
       description: 'Proyecto individual bootcamp Henry. Consumo de API spoonacular.',
-      imageSrc: 'imagen2.jpg', 
+      imageSrc: henryfood, 
       deployLink: 'https://henryfoodfrontend.vercel.app/',
       repoLink: 'https://github.com/agustinboasso/henryfoodfrontend',
     },
