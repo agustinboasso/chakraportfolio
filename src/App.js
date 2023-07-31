@@ -3,7 +3,7 @@ import { useColorMode } from "@chakra-ui/color-mode";
 import { Flex, VStack, Heading, Spacer } from "@chakra-ui/layout";
 import { FaSun, FaMoon, FaInstagram, FaGithub, FaLinkedin } from 'react-icons/fa'
 import Header from "./Components/Header";
-import Profile from "./Components/Profile";
+import Footer from "./Components/Footer";
 import TechSkills from "./Components/TechSkills";
 import SoftSkills from "./Components/SoftSkills";
 import Projects from "./Components/Projects";
@@ -34,7 +34,7 @@ function App() {
       <Projects/>
      
       <Certificates/>
-      <Profile />
+      <Footer />
     </VStack>
   );
 }
