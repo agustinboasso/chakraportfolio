@@ -5,7 +5,7 @@ import henryfood from '../assets/images/henryfood.jpg'
 import ProFinder from '../assets/images/ProFinder.jpg'
 import pokereact from '../assets/images/pokereact.jpg'
 import portfolio from '../assets/images/portfolio.jpg'
-
+import naga from '../assets/images/naga.jpg'
 
 function Projects() {
   const dividerColor = useColorModeValue('blue.900', 'gray.100');
@@ -30,7 +30,7 @@ function Projects() {
       repoLink: 'https://github.com/agustinboasso/henryfoodfrontend',
     },
     {
-        id: 2,
+        id: 3,
         name: 'Portfolio Agustin Boasso',
         description: 'Tecnologías: React JS, Chakra UI, vercel, Git, GitHub.',
         imageSrc: portfolio, 
@@ -38,10 +38,18 @@ function Projects() {
         repoLink: 'https://github.com/agustinboasso/chakraportfolio',
       },
       {
-        id: 2,
+        id: 4,
         name: 'Proyecto Final React JS',
         description: 'Tecnologías: React, React Boostrap, JS.',
         imageSrc: pokereact, 
+        deployLink: 'https://agustin-boassso-react-js-proyecto-final.vercel.app/',
+        repoLink: 'https://github.com/agustinboasso/agustinBoasssoReactJSProyectoFinal',
+      },
+      {
+        id: 5,
+        name: 'Naga Collectivo',
+        description: 'Colaboracíon en Naga Colllectivo. Creacíon de nuevos perfiles, links, etc. Tecnologías: Wordpress, WooCommerce, Elementor',
+        imageSrc: naga, 
         deployLink: 'https://agustin-boassso-react-js-proyecto-final.vercel.app/',
         repoLink: 'https://github.com/agustinboasso/agustinBoasssoReactJSProyectoFinal',
       },
