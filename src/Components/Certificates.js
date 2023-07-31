@@ -24,20 +24,20 @@ function Certificates() {
       imageSrc: EFenglish, 
       link: 'https://www.efset.org/cert/hoPNfg',
     },
-    {
-      id: 3,
-      name: 'Certificado 3',
-      description: 'Breve descripción del Certificado 3.',
-      imageSrc: 'imagen3.jpg', 
-      link: 'https://link-certificado-3.com',
-    },
-    {
-      id: 4,
-      name: 'Certificado 4',
-      description: 'Breve descripción del Certificado 4.',
-      imageSrc: 'imagen4.jpg', 
-      link: 'https://link-certificado-4.com',
-    },
+    // {
+    //   id: 3,
+    //   name: 'Certificado 3',
+    //   description: 'Breve descripción del Certificado 3.',
+    //   imageSrc: 'imagen3.jpg', 
+    //   link: 'https://link-certificado-3.com',
+    // },
+    // {
+    //   id: 4,
+    //   name: 'Certificado 4',
+    //   description: 'Breve descripción del Certificado 4.',
+    //   imageSrc: 'imagen4.jpg', 
+    //   link: 'https://link-certificado-4.com',
+    // },
    
   ];
 
