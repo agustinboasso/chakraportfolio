@@ -11,19 +11,19 @@ function Projects() {
   const projectsData = [
     {
       id: 1,
-      name: 'Proyecto 1',
-      description: 'Breve descripción del Proyecto 1.',
-      imageSrc: 'imagen1.jpg', 
-      deployLink: 'https://link-deploy-proyecto-1.com',
-      repoLink: 'https://link-repositorio-proyecto-1.com',
+      name: 'ProFinder',
+      description: 'Proyecto final bootcamp Henry- julio 2023 -',
+      imageSrc: '../assets/images/ProFinder.jpg', 
+      deployLink: 'https://profinder-client.vercel.app/',
+      repoLink: 'https://github.com/agustinboasso/ProFinder-ProyectoFinalHenry-',
     },
     {
       id: 2,
-      name: 'Proyecto 2',
-      description: 'Breve descripción del Proyecto 2.',
+      name: 'Henry Foods',
+      description: 'Proyecto individual bootcamp Henry. Consumo de API spoonacular.',
       imageSrc: 'imagen2.jpg', 
-      deployLink: 'https://link-deploy-proyecto-2.com',
-      repoLink: 'https://link-repositorio-proyecto-2.com',
+      deployLink: 'https://henryfoodfrontend.vercel.app/',
+      repoLink: 'https://github.com/agustinboasso/henryfoodfrontend',
     },
     {
         id: 2,
