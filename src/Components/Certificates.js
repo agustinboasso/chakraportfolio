@@ -49,7 +49,7 @@ function Certificates() {
             Certificados
           </Heading>
           <Text textAlign="center" mb="8">
-            Descripción de la sección de certificados. Puedes modificar este texto según tus necesidades.
+            Aquí verás los certificados que avalan mis conocimientos:
           </Text>
         </VStack>
       </Center>

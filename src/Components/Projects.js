@@ -65,7 +65,7 @@ function Projects() {
             Proyectos
           </Heading>
           <Text textAlign="center" mb="8">
-            Descripción de la sección de proyectos. Puedes modificar este texto según tus necesidades.
+            Aquí verás los proyectos de mi autoría y algunas colaboraciones:
           </Text>
         </VStack>
       </Center>
