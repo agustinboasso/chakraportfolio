@@ -38,6 +38,8 @@ function Social() {
             <br/> 
             Control de versiones: Git, GitHub, gitflow. 
             WordPress (Con los plugins Elementor y WooCommerce), entre otras tecnologías.
+            <br/>
+            Metodologías ágiles: scrum y kanban.
           </Text>
         </VStack>
         <br/>

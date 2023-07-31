@@ -14,7 +14,7 @@ function Footer() {
     <HStack  color={textColor} py="4" px="8" spacing="4" justify="center">
       <HStack spacing="4">
         <IconButton as="a" href={linkedinURL} target="_blank" rel="noopener noreferrer" icon={<FaLinkedin />} aria-label="LinkedIn" />
-        <IconButton as="a" href={instagramURL} target="_blank" rel="noopener noreferrer" icon={<FaInstagram />} aria-label="Instagram" />
+        {/* <IconButton as="a" href={instagramURL} target="_blank" rel="noopener noreferrer" icon={<FaInstagram />} aria-label="Instagram" /> */}
         <IconButton as="a" href={githubURL} target="_blank" rel="noopener noreferrer" icon={<FaGithub />} aria-label="GitHub" />
       </HStack>
       <span>&copy; Agustin Boasso - 2023 - Todos los derechos reservados</span>

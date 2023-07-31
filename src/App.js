@@ -24,7 +24,7 @@ function App() {
         <Heading ml="8" size="md" fontWeight='semibold' color="cyan.400">Agustin Boasso</Heading>
         <Spacer></Spacer>
         <IconButton as="a" href={linkedinURL} target="_blank" rel="noopener noreferrer" icon={<FaLinkedin />} isRound='true' />
-        <IconButton as="a" href={instagramURL} target="_blank" rel="noopener noreferrer" icon={<FaInstagram />} isRound='true' />
+        {/* <IconButton as="a" href={instagramURL} target="_blank" rel="noopener noreferrer" icon={<FaInstagram />} isRound='true' /> */}
         <IconButton as="a" href={githubURL} target="_blank" rel="noopener noreferrer" icon={<FaGithub />} isRound='true' />
         <IconButton ml={8} icon={isDark ? <FaSun /> : <FaMoon />} isRound='true' onClick={toggleColorMode} />
       </Flex>

@@ -34,13 +34,15 @@ function Social() {
             Habilidades Blandas
           </Heading>
           <Text textAlign="center" mb="8">
-            Soy una persona de muchas habilidades blandas. La comunicación efectiva y el buen trato con mis pares son una impronta que llevo como objetivo diario. Constantemente fomento el trabajo en equipo y planteo dinámicas que llevan a buenos resultados en el tiempo esperado, logrando un sentido de pertenencia en las personas. Mi escucha activa me permite ser asertivo en el trabajo. Soy empático, proactivo, creativo, artista, autodidacta, aprendo rápido y me gusta colaborar, entre muchas otras cualidades.
+             La comunicación efectiva y el buen trato con mis pares son una impronta que llevo como objetivo diario. Constantemente fomento el trabajo en equipo y planteo dinámicas que llevan a buenos resultados en el tiempo esperado, logrando un sentido de pertenencia y pertinencia. 
+             <br/>
+             La escucha activa me permite ser asertivo en el trabajo.
+            <br/>
+            Soy empático, proactivo, creativo, artista, autodidacta, aprendo rápido, me gusta colaborar y co-crear.
           </Text>
+          
           <Text textAlign="center" mb="8">
-            Poseo un gran sentido de pertenencia y pertinencia, que junto con mi inteligencia emocional logran generar un buen clima y una comunicación efectiva.
-          </Text>
-          <Text textAlign="center" mb="8">
-            Estoy familiarizado con metodologías ágiles y scrum.
+            
           </Text>
           <Text textAlign="center" fontWeight="bold">
             Habilidades destacadas:
