@@ -3,6 +3,8 @@ import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
 import { Box, Center, VStack, Heading, Divider, Text, Image, Link, SimpleGrid, useColorModeValue, Icon, HStack, Grid } from '@chakra-ui/react';
 import henryfood from '../assets/images/henryfood.jpg'
 import ProFinder from '../assets/images/ProFinder.jpg'
+import pokereact from '../assets/images/pokereact.jpg'
+import portfolio from '../assets/images/portfolio.jpg'
 
 
 function Projects() {
@@ -29,20 +31,21 @@ function Projects() {
     },
     {
         id: 2,
-        name: 'Proyecto 2',
-        description: 'Breve descripción del Proyecto 2.',
-        imageSrc: 'imagen2.jpg', 
-        deployLink: 'https://link-deploy-proyecto-2.com',
-        repoLink: 'https://link-repositorio-proyecto-2.com',
+        name: 'Portfolio Agustin Boasso',
+        description: 'Tecnologías: React JS, Chakra UI, vercel, Git, GitHub.',
+        imageSrc: portfolio, 
+        deployLink: 'https://portfolioagustinboasso.vercel.app/',
+        repoLink: 'https://github.com/agustinboasso/chakraportfolio',
       },
       {
         id: 2,
-        name: 'Proyecto 2',
-        description: 'Breve descripción del Proyecto 2.',
-        imageSrc: 'imagen2.jpg', 
-        deployLink: 'https://link-deploy-proyecto-2.com',
-        repoLink: 'https://link-repositorio-proyecto-2.com',
+        name: 'Proyecto Final React JS',
+        description: 'Tecnologías: React, React Boostrap, JS.',
+        imageSrc: pokereact, 
+        deployLink: 'https://agustin-boassso-react-js-proyecto-final.vercel.app/',
+        repoLink: 'https://github.com/agustinboasso/agustinBoasssoReactJSProyectoFinal',
       },
+      
     
   ];
 

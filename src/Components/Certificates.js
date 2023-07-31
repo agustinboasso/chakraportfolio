@@ -1,6 +1,8 @@
 import React from 'react';
 import { Box, Center, VStack, Heading, Divider, Text, Image, Link, SimpleGrid, useColorModeValue, Icon, HStack, Grid } from '@chakra-ui/react';
 import { FaExternalLinkAlt } from 'react-icons/fa';
+import EFenglish from '../assets/certificados/EFenglish.jpg'
+import react from '../assets/certificados/react.png'
 
 function Certificates() {
   const dividerColor = useColorModeValue('blue.900', 'gray.100');
@@ -12,14 +14,14 @@ function Certificates() {
       id: 1,
       name: 'Carrera Desarrollo Frontend- Coder House-',
       description: 'Carrera desarrollo frontend. Tecnologias utilizadas: JavaScript, React Js, Firebase, React boostrap, CSS, HTML',
-      imageSrc: 'imagen1.jpg', 
+      imageSrc: react, 
       link: 'https://www.coderhouse.com/certificados/6402198c9b6439000e3c0ec9',
     },
     {
       id: 2,
       name: 'EFSET English Certificate 49/100 (B1 Intermediate)',
       description: 'EF International Language Centers',
-      imageSrc: 'imagen2.jpg', 
+      imageSrc: EFenglish, 
       link: 'https://www.efset.org/cert/hoPNfg',
     },
     {
