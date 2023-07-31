@@ -30,7 +30,7 @@ function Social() {
     <Center py="8">
       <Box maxW="800px" w="100%">
         <VStack spacing="4">
-          <Heading as="h2" size="md" textAlign="center" mb="4" bgGradient={sectionTitleGradient} bgClip="text" textTransform="uppercase">
+          <Heading as="h2" size="xl" textAlign="center" mb="4" bgGradient={sectionTitleGradient} bgClip="text" textTransform="uppercase">
             Habilidades Blandas
           </Heading>
           <Text textAlign="center" mb="8">

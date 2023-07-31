@@ -10,17 +10,17 @@ function Certificates() {
   const certificatesData = [
     {
       id: 1,
-      name: 'Certificado 1',
-      description: 'Breve descripción del Certificado 1.',
+      name: 'Carrera Desarrollo Frontend- Coder House-',
+      description: 'Carrera desarrollo frontend. Tecnologias utilizadas: JavaScript, React Js, Firebase, React boostrap, CSS, HTML',
       imageSrc: 'imagen1.jpg', 
-      link: 'https://link-certificado-1.com',
+      link: 'https://www.coderhouse.com/certificados/6402198c9b6439000e3c0ec9',
     },
     {
       id: 2,
-      name: 'Certificado 2',
-      description: 'Breve descripción del Certificado 2.',
+      name: 'EFSET English Certificate 49/100 (B1 Intermediate)',
+      description: 'EF International Language Centers',
       imageSrc: 'imagen2.jpg', 
-      link: 'https://link-certificado-2.com',
+      link: 'https://www.efset.org/cert/hoPNfg',
     },
     {
       id: 3,
@@ -43,7 +43,7 @@ function Certificates() {
     <Box w="100%" mb="8">
       <Center py="8">
         <VStack spacing="4">
-          <Heading as="h2" size="md" textAlign="center" mb="4" bgGradient={sectionTitleGradient} bgClip="text" textTransform="uppercase">
+          <Heading as="h2" size="xl" textAlign="center" mb="4" bgGradient={sectionTitleGradient} bgClip="text" textTransform="uppercase">
             Certificados
           </Heading>
           <Text textAlign="center" mb="8">

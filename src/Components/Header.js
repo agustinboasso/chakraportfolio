@@ -11,6 +11,11 @@ function Header() {
     const isDark = colorMode === "dark";
 
     const [isNotSmallerScreen] = useMediaQuery("(min-width:600px)");
+    
+    const handleContactButtonClick = () => {
+        
+        window.location.href = 'boassoagustin@gmail.com';
+      };
 
     return (
         <Stack>
@@ -24,9 +29,7 @@ function Header() {
                     <Text fontSize="7xl" fontWeight="bold" bgGradient="linear(to-r, cyan.400, blue.500, purple.600)" bgClip='text' >Agustin Boasso</Text>
                     <Text color={isDark ? "gray.200" : "gray.500"}>Desarrollador Fullstack de la ciudad de Córdoba, Argentina.
               🗣</Text>
-                    <Button mt={8} colorScheme="blue" onClick={() =>
-                        window.open("https://pawan.live")
-                    }>Contáctame</Button>
+                    <Button mt={8} colorScheme="blue" onClick={handleContactButtonClick}>Contáctame</Button>
 
                 </Box>
                 <Image alignSelf="center" mt={isNotSmallerScreen ? "0" : "12"}
