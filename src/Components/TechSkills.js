@@ -1,6 +1,6 @@
 import Icon from '@chakra-ui/icon';
 import { Box, VStack, HStack, Heading, Divider, Tooltip, useColorModeValue, Text, Center } from '@chakra-ui/react';
-import React from 'react';
+
 
 import { FaReact, FaJs, FaHtml5, FaCss3, FaNode, FaDatabase, FaCode, FaFire, FaBootstrap, FaGithub, FaWordpress, FaElementor, FaPostgres, FaFigma } from 'react-icons/fa';
 
