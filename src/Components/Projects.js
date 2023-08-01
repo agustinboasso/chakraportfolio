@@ -50,17 +50,17 @@ function Projects() {
         name: 'Naga Collectivo',
         description: 'Colaboracíon en Naga Colllectivo. Creacíon de nuevos perfiles, links, etc. Tecnologías: Wordpress, WooCommerce, Elementor',
         imageSrc: naga, 
-        deployLink: 'https://agustin-boassso-react-js-proyecto-final.vercel.app/',
-        repoLink: 'https://github.com/agustinboasso/agustinBoasssoReactJSProyectoFinal',
+        deployLink: 'https://nagacollectivo.com/',
+        repoLink: 'https://nagacollectivo.com/',
       },
-      {
-        id: 6,
-        name: 'Proyecto Final React JS',
-        description: 'Tecnologías: React, React Boostrap, JS.',
-        imageSrc: pokereact, 
-        deployLink: 'https://agustin-boassso-react-js-proyecto-final.vercel.app/',
-        repoLink: 'https://github.com/agustinboasso/agustinBoasssoReactJSProyectoFinal',
-      },
+      // {
+      //   id: 6,
+      //   name: 'Proyecto Final React JS',
+      //   description: 'Tecnologías: React, React Boostrap, JS.',
+      //   imageSrc: pokereact, 
+      //   deployLink: 'https://agustin-boassso-react-js-proyecto-final.vercel.app/',
+      //   repoLink: 'https://github.com/agustinboasso/agustinBoasssoReactJSProyectoFinal',
+      // },
       
     
   ];

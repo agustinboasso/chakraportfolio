@@ -3,7 +3,7 @@ import { Image } from '@chakra-ui/image';
 import { Stack, Circle, Flex, Box, Text, IconButton, HStack } from '@chakra-ui/react';
 import { useMediaQuery } from '@chakra-ui/react';
 import { DownloadIcon } from '@chakra-ui/icons'; // Importamos el ícono de descarga
-import React from 'react';
+import './Header.css'
 
 function Header() {
   const { colorMode } = useColorMode();
@@ -51,6 +51,7 @@ function Header() {
             fontWeight="bold"
             bgGradient="linear(to-r, cyan.400, blue.500, purple.600)"
             bgClip="text"
+            className="rotate-diagonal-1"
           >
             Agustin <br />Boasso
           </Text>
