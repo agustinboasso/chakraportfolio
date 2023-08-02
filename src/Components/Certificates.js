@@ -42,7 +42,8 @@ function Certificates() {
   ];
 
   return (
-    <Box w="100%" mb="8">
+    <Box w="100%" >
+      <Divider borderColor={dividerColor} mt="4" mb="4" maxW="50%" mx="auto" />
       <Center py="8">
         <VStack spacing="4">
           <Heading as="h2" size="xl" textAlign="center" mb="4" bgGradient={sectionTitleGradient} bgClip="text" textTransform="uppercase">

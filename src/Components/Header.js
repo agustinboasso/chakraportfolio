@@ -62,7 +62,7 @@ function Header() {
         <Box>
           <IconButton
             colorScheme="blue"
-            icon={<span>Contactame</span>}
+            icon={<span>Contactame  </span>}
             onClick={() => (window.location.href = `mailto:${emailAddress}`)}
           />
         </Box>

@@ -14,7 +14,7 @@ function App() {
   const { colorMode, toggleColorMode } = useColorMode();
   const isDark = colorMode === "dark";
 
-  // URLs de tus redes sociales
+
   const linkedinURL = "https://www.linkedin.com/in/agustin-boasso-/";
   const instagramURL = "https://www.instagram.com/boasso_agustin/?hl=en";
   const githubURL = "http://github.com/agustinboasso";

@@ -66,7 +66,8 @@ function Projects() {
   ];
 
   return (
-    <Box maxW="800px" w="100%" mb="8">
+    <Box maxW="800px" w="100%" >
+      <Divider borderColor={dividerColor} mt="4" mb="4" maxW="50%" mx="auto" />
       <Center py="8">
         <VStack spacing="4">
           <Heading as="h2" size="xl" textAlign="center" mb="4" bgGradient={sectionTitleGradient} bgClip="text" textTransform="uppercase">
@@ -101,7 +102,7 @@ function Projects() {
         ))}
       </Grid>
       <br/>
-      <Divider borderColor={dividerColor} mt="4" mb="4" maxW="50%" mx="auto" />
+      
     </Box>
   );
 }

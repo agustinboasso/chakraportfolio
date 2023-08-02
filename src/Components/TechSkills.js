@@ -54,7 +54,7 @@ function Social() {
             ))}
           </HStack>
         </VStack>
-        <Divider borderColor={dividerColor} mt="4" mb="4" maxW="50%" mx="auto" />
+        
       </Box>
     </Center>
   );
