@@ -3,6 +3,7 @@ import { Box, Center, VStack, Heading, Divider, Text, Image, Link, SimpleGrid, u
 import { FaExternalLinkAlt } from 'react-icons/fa';
 import EFenglish from '../assets/certificados/EFenglish.jpg'
 import react from '../assets/certificados/react.png'
+import Henry from '../assets/certificados/Henry.jpg'
 
 function Certificates() {
   const dividerColor = useColorModeValue('blue.900', 'gray.100');
@@ -12,13 +13,20 @@ function Certificates() {
   const certificatesData = [
     {
       id: 1,
+      name: 'Full Stack Web Developer - HENRY-',
+      description: 'Full Stack Web Developer. Tecnologias utilizadas: JavaScript, React Js, NodeJS, Redux, SQL, Typescript, CSS, HTML',
+      imageSrc: Henry, 
+      link: 'https://certificates.soyhenry.com/new-cert?id=0b91515b888f062e851eb5a562dbb63e86d54fcb4a4b2',
+    },
+    {
+      id: 2,
       name: 'Carrera Desarrollo Frontend- Coder House-',
       description: 'Carrera desarrollo frontend. Tecnologias utilizadas: JavaScript, React Js, Firebase, React boostrap, CSS, HTML',
       imageSrc: react, 
       link: 'https://www.coderhouse.com/certificados/6402198c9b6439000e3c0ec9',
     },
     {
-      id: 2,
+      id: 3,
       name: 'EFSET English Certificate 49/100 (B1 Intermediate)',
       description: 'EF International Language Centers',
       imageSrc: EFenglish, 
