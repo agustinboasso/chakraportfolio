@@ -2,7 +2,7 @@ import React from 'react';
 import { Box, Center, VStack, Heading, Divider, Text, Image, Link, SimpleGrid, useColorModeValue, Icon, HStack, Grid } from '@chakra-ui/react';
 import { FaExternalLinkAlt } from 'react-icons/fa';
 import EFenglish from '../assets/certificados/EFenglish.jpg'
-import coder from '../assets/certificados/coder.png'
+import coder from '../assets/certificados/coder.jpg'
 import Henry from '../assets/certificados/Henry.jpg'
 
 function Certificates() {
