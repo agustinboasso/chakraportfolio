@@ -2,7 +2,7 @@ import React from 'react';
 import { Box, Center, VStack, Heading, Divider, Text, Image, Link, SimpleGrid, useColorModeValue, Icon, HStack, Grid } from '@chakra-ui/react';
 import { FaExternalLinkAlt } from 'react-icons/fa';
 import EFenglish from '../assets/certificados/EFenglish.jpg'
-import react from '../assets/certificados/react.png'
+import coder from '../assets/certificados/coder.png'
 import Henry from '../assets/certificados/Henry.jpg'
 
 function Certificates() {
@@ -22,7 +22,7 @@ function Certificates() {
       id: 2,
       name: 'Carrera Desarrollo Frontend- Coder House-',
       description: 'Carrera desarrollo frontend. Tecnologias utilizadas: JavaScript, React Js, Firebase, React boostrap, CSS, HTML',
-      imageSrc: react, 
+      imageSrc: coder, 
       link: 'https://www.coderhouse.com/certificados/6402198c9b6439000e3c0ec9',
     },
     {
