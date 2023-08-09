@@ -32,13 +32,13 @@ function Certificates() {
       imageSrc: EFenglish, 
       link: 'https://www.efset.org/cert/hoPNfg',
     },
-    // {
-    //   id: 3,
-    //   name: 'Certificado 3',
-    //   description: 'Breve descripción del Certificado 3.',
-    //   imageSrc: 'imagen3.jpg', 
-    //   link: 'https://link-certificado-3.com',
-    // },
+    {
+      id: 4,
+      name: 'Teaching Assistant - HENRY - ',
+      description: 'Coordinación de estudiantes para su mejor adaptación en el transcurso del bootcamp.',
+      imageSrc: 'imagen3.jpg', 
+      link: 'https://link-certificado-3.com',
+    },
     // {
     //   id: 4,
     //   name: 'Certificado 4',
