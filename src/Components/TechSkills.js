@@ -34,7 +34,7 @@ function Social() {
           </Heading>
           <Text textAlign="center" mb="8">
             Dentro de los skills técnicos me encuentro con sólidos conocimientos en:
-            HTML, CSS y JavaScript, React JS, Vue JS, Express JS, Redux, Redux Toolkit, Node.js, Firebase, Bootstrap, Chakra UI, NodeJS, SQL (PostgreSQL).
+            HTML, CSS y JavaScript, Typescript, React JS, Vue JS, Express JS, Redux, Redux Toolkit, Node.js, Firebase, Bootstrap, Chakra UI, NodeJS, SQL (PostgreSQL), Postman , Jira, Trello, Figma, Canva.
             <br/> 
             Control de versiones: Git, GitHub, gitflow. 
             WordPress (Con los plugins Elementor y WooCommerce), entre otras tecnologías.
