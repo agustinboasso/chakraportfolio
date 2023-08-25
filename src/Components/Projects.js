@@ -3,7 +3,7 @@ import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
 import { Box, Center, VStack, Heading, Divider, Text, Image, Link, SimpleGrid, useColorModeValue, Icon, HStack, Grid } from '@chakra-ui/react';
 import henryfood from '../assets/images/henryfood.jpg'
 import ProFinder from '../assets/images/ProFinder.jpg'
-import pokereact from '../assets/images/pokereact.jpg'
+import aythenPlugin from '../assets/images/aythenPlugin.jpeg'
 import portfolio from '../assets/images/portfolio.jpg'
 import naga from '../assets/images/naga.jpg'
 
@@ -53,14 +53,14 @@ function Projects() {
         deployLink: 'https://nagacollectivo.com/',
         repoLink: 'https://nagacollectivo.com/',
       },
-      // {
-      //   id: 6,
-      //   name: 'Proyecto Final React JS',
-      //   description: 'Tecnologías: React, React Boostrap, JS.',
-      //   imageSrc: pokereact, 
-      //   deployLink: 'https://agustin-boassso-react-js-proyecto-final.vercel.app/',
-      //   repoLink: 'https://github.com/agustinboasso/agustinBoasssoReactJSProyectoFinal',
-      // },
+      {
+        id: 6,
+        name: 'Desarrollo de Plugin para Figma',
+        description: 'Automatización de JSON desde Figma para colaboración eficiente. Tecnologías avanzadas, rendimiento optimizado y enfoque en innovación.',
+        imageSrc: aythenPlugin,
+        deployLink: 'https://github.com/agustinboasso/aythen-figma-plugin',
+        repoLink: 'https://github.com/agustinboasso/aythen-figma-plugin',
+      },
       
     
   ];
