@@ -14,6 +14,14 @@ function Projects() {
   
   const projectsData = [
     {
+      id: 6,
+      name: 'Desarrollo de Plugin para Figma',
+      description: 'Automatización de JSON desde Figma para colaboración eficiente. Tecnologías avanzadas, rendimiento optimizado y enfoque en innovación.',
+      imageSrc: aythenPlugin,
+      deployLink: 'https://github.com/agustinboasso/aythen-figma-plugin',
+      repoLink: 'https://github.com/agustinboasso/aythen-figma-plugin',
+    },
+    {
       id: 1,
       name: 'ProFinder',
       description: 'Proyecto final bootcamp Henry- julio 2023 -',
