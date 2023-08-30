@@ -4,6 +4,7 @@ import { FaExternalLinkAlt } from 'react-icons/fa';
 import EFenglish from '../assets/certificados/EFenglish.jpg'
 import coder from '../assets/certificados/coder.jpg'
 import Henry from '../assets/certificados/Henry.jpg'
+import TAHenry from '../assets/certificados/TA-Henry.jpg'
 
 function Certificates() {
   const dividerColor = useColorModeValue('blue.900', 'gray.100');
@@ -36,8 +37,8 @@ function Certificates() {
       id: 4,
       name: 'Teaching Assistant - HENRY - ',
       description: 'Coordinación de estudiantes para su mejor adaptación en el transcurso del bootcamp.',
-      imageSrc: 'imagen3.jpg', 
-      link: 'https://link-certificado-3.com',
+      imageSrc: TAHenry, 
+      link: 'https://certificates.soyhenry.com/new-cert?id=61885b38f93b5c817d72024ff2710e2242691322cd02bb8f0599e7ed892f43df',
     },
     // {
     //   id: 4,
