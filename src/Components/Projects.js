@@ -56,7 +56,7 @@ function Projects() {
       {
         id: 5,
         name: 'Naga Collectivo',
-        description: 'Colaboracíon en Naga Colllectivo. Creacíon de nuevos perfiles, links, etc. Tecnologías: Wordpress, WooCommerce, Elementor',
+        description: 'Colaboración en Naga Colllectivo. Creacíon de nuevos perfiles, links, etc. Tecnologías: Wordpress, WooCommerce, Elementor',
         imageSrc: naga, 
         deployLink: 'https://nagacollectivo.com/',
         repoLink: 'https://nagacollectivo.com/',
