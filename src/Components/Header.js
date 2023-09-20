@@ -15,7 +15,7 @@ function Header() {
 
   const handleDownloadCV = () => {
     window.open(
-      'https://www.mediafire.com/file/swbce6zgvs9q5ih/AGUSTIN_BOASSO_CV.pdf/file',
+      'https://www.mediafire.com/file/1mxlj5c4w00f1wb/AGUSTIN_BOASSO_CV.pdf/file',
       '_blank'
     );
   };
