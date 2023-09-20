@@ -2,6 +2,7 @@ import { IconButton } from "@chakra-ui/button";
 import { useColorMode } from "@chakra-ui/color-mode";
 import { Flex, VStack, Heading, Spacer } from "@chakra-ui/layout";
 import { FaSun, FaMoon, FaInstagram, FaGithub, FaLinkedin } from 'react-icons/fa'
+
 import Header from "./Components/Header";
 import Footer from "./Components/Footer";
 import About from './Components/About'
@@ -9,6 +10,8 @@ import TechSkills from "./Components/TechSkills";
 import SoftSkills from "./Components/SoftSkills";
 import Projects from "./Components/Projects";
 import Certificates from "./Components/Certificates";
+import ThreeComponent from "./Components/ThreeComponente";
+import ThreeProjects from "./Components/ThreeProjects";
 
 function App() {
   const { colorMode, toggleColorMode } = useColorMode();
@@ -34,7 +37,8 @@ function App() {
       <TechSkills />
       <SoftSkills/>
       <Projects/>
-     
+      <ThreeProjects/>
+      {/* <ThreeComponent key="three"/> */}
       <Certificates/>
       <Footer />
     </VStack>

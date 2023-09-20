@@ -40,6 +40,8 @@ function Social() {
             WordPress (Con los plugins Elementor y WooCommerce), entre otras tecnologías.
             <br/>
             Metodologías ágiles: scrum y kanban.
+            <br/>
+            En este momento me encuentro desarollando entornos 3D con las tecnologías WebGL, Three JS, React-three-fiber, Blender y Babylon JS para la empresa Aythen Company.
           </Text>
         </VStack>
         <br/>
