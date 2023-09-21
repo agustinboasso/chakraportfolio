@@ -18,8 +18,8 @@ function ThreeProjects() {
       name: 'Generador de Galaxias - Three JS',
       description: 'Generador de galaxias que forma parte de la currícula del curso del francés Bruno Simon.',
       imageSrc: galaxyGenerator,
-      deployLink: 'https://https://github.com/agustinboasso/galaxyGenerator',
-      repoLink: 'https://galaxygeneratoragustinboasso.netlify.app/',
+      deployLink:'https://galaxygeneratoragustinboasso.netlify.app/' ,
+      repoLink:'https://github.com/agustinboasso/galaxyGenerator' ,
     },
     {
       id: 1,
