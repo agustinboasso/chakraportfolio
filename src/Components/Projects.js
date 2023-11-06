@@ -6,6 +6,7 @@ import ProFinder from '../assets/images/ProFinder.jpg'
 import aythenPlugin from '../assets/images/aythenPlugin.jpeg'
 import portfolio from '../assets/images/portfolio.jpg'
 import naga from '../assets/images/naga.jpg'
+import Editor3d from '../assets/images/Editor3d.jpg'
 
 function Projects() {
   const dividerColor = useColorModeValue('blue.900', 'gray.100');
@@ -63,10 +64,10 @@ function Projects() {
       },
       {
         id: 6,
-        name: 'Desarrollo de Plugin para Figma',
-        description: 'Automatización de JSON desde Figma para colaboración eficiente. Tecnologías avanzadas, rendimiento optimizado y enfoque en innovación.',
-        imageSrc: aythenPlugin,
-        deployLink: 'https://github.com/agustinboasso/aythen-figma-plugin',
+        name: 'Desarrollo Editor 3d web, Aythen Company',
+        description: 'Desarrollo de un editor 3d web completamente funcional. Desarrollo de front y colaboración en backend.',
+        imageSrc: Editor3d,
+        deployLink: 'https://web2.aythen.com/es',
         repoLink: 'https://github.com/agustinboasso/aythen-figma-plugin',
       },
       
