@@ -1,7 +1,7 @@
 
 import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
 import { Box, Center, VStack, Heading, Divider, Text, Image, Link, SimpleGrid, useColorModeValue, Icon, HStack, Grid } from '@chakra-ui/react';
-import  fox from '../assets/images/three/fox.png'
+import  portfolio from '../assets/images/three/3dportfolio.png'
 import galaxyGenerator from '../assets/images/three/galaxyGenerator.png'
 import hauntedHouse from '../assets/images/three/hauntedHouse.png'
 import portfolio3d from '../assets/images/three/porfolio3d.png'
@@ -18,16 +18,16 @@ function ThreeProjects() {
       name: 'Generador de Galaxias - Three JS',
       description: 'Generador de galaxias que forma parte de la currícula del curso del francés Bruno Simon.',
       imageSrc: galaxyGenerator,
-      deployLink:'https://galaxygeneratoragustinboasso.netlify.app/' ,
-      repoLink:'https://github.com/agustinboasso/galaxyGenerator' ,
+      deployLink:'https://31-animated-galaxy-final-jjfey6g4e-agustinboasso.vercel.app/' ,
+      repoLink:'https://github.com/agustinboasso/31-animated-galaxy-final' ,
     },
     {
       id: 1,
-      name: 'Animaciones - Three JS',
-      description: 'Animando modelos importados en Three JS. Currícula del curso del francés Bruno Simon',
-      imageSrc: fox  , 
-      deployLink: 'https://animationsagustinboasso.netlify.app',
-      repoLink: 'https://github.com/agustinboasso/animations',
+      name: 'Portfolio - Three JS',
+      description: 'Portfolio en Three JS. Currícula del curso del francés Bruno Simon',
+      imageSrc: portfolio  , 
+      deployLink: 'https://3dportfolio-n37b.vercel.app/',
+      repoLink: 'https://github.com/agustinboasso/3dportfolio',
     },
     {
       id: 2,
