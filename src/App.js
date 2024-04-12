@@ -41,7 +41,7 @@ function App() {
       <ThreeProjects/>
       {/* <ThreeComponent key="three"/> */}
       <Certificates/>
-      <Spotify/>
+      {/* <Spotify/> */}
       <Footer />
     </VStack>
   );
