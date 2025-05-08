@@ -16,7 +16,8 @@ import {
 } from '@chakra-ui/react';
 
 import Editor3d from '../assets/images/Editor3d.jpg';
-import naga from '../assets/images/naga.jpg'; // usar una imagen más adecuada si tenés
+import naga from '../assets/images/naga.jpg';
+import aythenPlugin from '../assets/images/aythenPlugin.png' // usar una imagen más adecuada si tenés
 
 function Projects() {
   const dividerColor = useColorModeValue('blue.900', 'gray.100');
@@ -29,7 +30,7 @@ function Projects() {
       description:
         'Desarrollo fullstack de una plataforma en tiempo real para gestionar bots de WhatsApp con operadores humanos. Arquitectura escalable, despliegue automatizado y control de infraestructura cloud.',
       imageSrc: naga,
-      deployLink: 'https://tudominio.com', // si no hay link público, podés dejarlo vacío
+      deployLink: 'https://kineofrontend.vercel.app/', // si no hay link público, podés dejarlo vacío
       repoLink: '',
     },
     {
@@ -48,7 +49,15 @@ function Projects() {
       imageSrc: Editor3d,
       deployLink: 'https://web2.aythen.com/es',
       repoLink: 'https://github.com/agustinboasso/aythen3dEditor',
-    }
+    },
+    {
+      id: 4,
+      name: 'Plugin para Figma - Aythen',
+      description: 'Automatización de JSON desde Figma para colaboración eficiente entre diseño y desarrollo.',
+      imageSrc: aythenPlugin,
+      deployLink: 'https://github.com/agustinboasso/aythen-figma-plugin',
+      repoLink: 'https://github.com/agustinboasso/aythen-figma-plugin',
+    },
   ];
 
   const otherProjects = [
