@@ -1,65 +1,83 @@
-import Icon from '@chakra-ui/icon';
 import { Box, VStack, HStack, Heading, Divider, Tooltip, useColorModeValue, Text, Center } from '@chakra-ui/react';
+import { FaReact, FaJs, FaHtml5, FaCss3, FaNode, FaDatabase, FaGitAlt, FaDocker, FaLinux, FaGithub, FaCloud, FaPython, FaJava } from 'react-icons/fa';
+import { SiPostgresql, SiMongodb, SiTalend, SiGooglecloud, SiTypescript, SiKubernetes, SiRedux, SiChakraui, SiSocketdotio, SiRabbitmq } from 'react-icons/si';
 
-
-import { FaReact, FaJs, FaHtml5, FaCss3, FaNode, FaDatabase, FaCode, FaFire, FaBootstrap, FaGithub, FaWordpress, FaElementor, FaPostgres, FaFigma } from 'react-icons/fa';
-
-function Social() {
+function TechStack() {
   const dividerColor = useColorModeValue('blue.900', 'gray.100');
+  const sectionTitleGradient = 'linear(to-r, cyan.400, blue.500, purple.600)';
 
   const technologies = [
-    { icon: FaReact, name: 'React' },
-    { icon: FaJs, name: 'JavaScript' },
-    { icon: FaHtml5, name: 'HTML5' },
-    { icon: FaCss3, name: 'CSS3' },
     { icon: FaNode, name: 'Node.js' },
-    { icon: FaCode, name: 'Redux' },
-    { icon: FaDatabase, name: 'PostgreSQL' },
-    { icon: FaFigma, name: 'Figma' },
-    { icon: FaWordpress, name: 'WordPress' },
-    { icon: FaElementor, name: 'Elementor' },
-    { icon: FaBootstrap, name: 'Bootstrap' },
+    { icon: SiTypescript, name: 'TypeScript' },
+    { icon: FaJs, name: 'JavaScript' },
+    { icon: FaReact, name: 'React' },
+    { icon: SiRedux, name: 'Redux' },
+    { icon: SiSocketdotio, name: 'Socket.IO' },
+    { icon: FaDatabase, name: 'SQL' },
+    { icon: SiPostgresql, name: 'PostgreSQL' },
+    { icon: SiMongodb, name: 'MongoDB' },
+    { icon: SiTalend, name: 'Talend' },
+    { icon: SiRabbitmq, name: 'RabbitMQ' },
+    { icon: FaDocker, name: 'Docker' },
+    { icon: SiKubernetes, name: 'Kubernetes (Rancher)' },
+    { icon: SiGooglecloud, name: 'Google Cloud Platform' },
     { icon: FaGithub, name: 'GitHub' },
-    { icon: FaFire, name: 'Firebase' },
+    { icon: FaGitAlt, name: 'Git' },
+    { icon: FaJava, name: 'Java (básico)' },
+    { icon: FaPython, name: 'Python (básico)' },
+    { icon: SiChakraui, name: 'Chakra UI' },
+    { icon: FaCloud, name: 'Cloud Run / App Engine' },
   ];
-  const sectionTitleGradient = "linear(to-r, cyan.400, blue.500, purple.600)";
-  
+
   return (
     <Center py="8">
       <Box maxW="800px" w="100%">
         <Divider borderColor={dividerColor} mb="4" maxW="50%" mx="auto" />
         <VStack spacing="4">
-          <Heading as="h2" size="xl" textAlign="center" mb="4" bgGradient={sectionTitleGradient} bgClip="text" textTransform="uppercase">
-            Tech Skills
+          <Heading
+            as="h2"
+            size="xl"
+            textAlign="center"
+            mb="4"
+            bgGradient={sectionTitleGradient}
+            bgClip="text"
+            textTransform="uppercase"
+          >
+            Stack Tecnológico
           </Heading>
-          <Text textAlign="center" mb="8">
-            Dentro de los skills técnicos me encuentro con sólidos conocimientos en:
-            HTML, CSS y JavaScript, Typescript, React JS, Vue JS, Express JS, Redux, Redux Toolkit, Node.js, Firebase, Bootstrap, Chakra UI, NodeJS, SQL (PostgreSQL), Postman , Jira, Trello, Figma, Canva.
-            <br/> 
-            Control de versiones: Git, GitHub, gitflow. 
-            WordPress (Con los plugins Elementor y WooCommerce), entre otras tecnologías.
-            <br/>
-            Metodologías ágiles: scrum y kanban.
-            <br/>
-           
+          <Text textAlign="center" mb="8" fontSize="lg" lineHeight="1.8">
+            Tengo experiencia en el desarrollo de soluciones fullstack, con fuerte foco en integraciones, backend y despliegue en infraestructura Cloud.
+            <br /><br />
+            <b>Lenguajes y Frameworks:</b> JavaScript, TypeScript, Node.js, React, Redux, Express.js, Socket.IO.
+            <br />
+            También he trabajado en proyectos puntuales con Java y Python.
+            <br />
+            <b>Base de datos:</b> PostgreSQL, MongoDB, Oracle DB.
+            <br />
+            <b>ETL & Data Integration:</b> Talend OS 7.3.1 / Talend 8, JDE Edwards.
+            <br />
+            <b>Cloud & DevOps:</b> Docker, Kubernetes (Rancher), GCP (Cloud Run, App Engine), GitHub Actions, Argo Workflows/CD.
+            <br />
+            <b>UI & Diseño:</b> Chakra UI, Figma.
+            <br />
+            <b>Metodologías:</b> Scrum, Kanban.
           </Text>
         </VStack>
-        <br/>
+
         <VStack spacing="8" alignItems="center">
-          <HStack spacing={{ base: "8", md: "24" }} flexWrap="wrap">
+          <HStack spacing={{ base: '8', md: '24' }} flexWrap="wrap" justifyContent="center">
             {technologies.map(({ icon: IconComponent, name }) => (
               <Tooltip key={name} label={name}>
-                <Box as="button" _hover={{ transform: "scale(1.1)" }}>
-                  <Icon as={IconComponent} boxSize="50" />
+                <Box as="button" _hover={{ transform: 'scale(1.1)' }}>
+                  <IconComponent size={50} />
                 </Box>
               </Tooltip>
             ))}
           </HStack>
         </VStack>
-        
       </Box>
     </Center>
   );
 }
 
-export default Social;
+export default TechStack;

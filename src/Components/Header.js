@@ -85,7 +85,7 @@ function Header() {
           backgroundColor="transparent"
           boxShadow="lg"
           boxSize="300px"
-          src="https://media.licdn.com/dms/image/D4D03AQEO8Bj8Ae5HDQ/profile-displayphoto-shrink_800_800/0/1670810747439?e=1718236800&v=beta&t=McCESeDVrQv0ShXDPJ0m6vVlSmlSCv_zEirV5LFvixE"
+          src="https://media.licdn.com/dms/image/v2/D4D03AQEI_PfM-09YlA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1722696622338?e=1752105600&v=beta&t=FeUyqIZXEe1Mfye78Fopj2_ozOFHKyp02ofFF37lgUU"
         />
       </Flex>
     </Stack>

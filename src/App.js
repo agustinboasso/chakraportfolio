@@ -10,6 +10,7 @@ import TechSkills from "./Components/TechSkills";
 import SoftSkills from "./Components/SoftSkills";
 import Projects from "./Components/Projects";
 import Certificates from "./Components/Certificates";
+import CareerTimeline from "./Components/CarreerTimeline"
 import ThreeComponent from "./Components/ThreeComponente";
 import ThreeProjects from "./Components/ThreeProjects";
 import Spotify from "./Components/Spotfy";
@@ -38,9 +39,10 @@ function App() {
       <TechSkills />
       <SoftSkills/>
       <Projects/>
-      <ThreeProjects/>
+      {/* <ThreeProjects/> */}
       {/* <ThreeComponent key="three"/> */}
-      <Certificates/>
+      <CareerTimeline/>
+      {/* <Certificates/> */}
       {/* <Spotify/> */}
       <Footer />
     </VStack>
